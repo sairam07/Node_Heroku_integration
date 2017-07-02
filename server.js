@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var PORT = 3000; //In JavaScript Variables Caps means its a Constant
+var PORT = process.env.PORT || 3000; //In JavaScript Variables Caps means its a Constant
 
 /*var url = '/home';
 function send(req,res){
