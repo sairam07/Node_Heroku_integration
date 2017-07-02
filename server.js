@@ -13,7 +13,7 @@ var middleware = require('./middleware.js');
 app.use(middleware.logger);
 
 app.get('/home',function(req,res){
-	res.send('Hello This is Express Web Server !');
+	res.send('Hello This is Express Web Server ! Welcome Home !');
 });
 
 app.use(express.static(__dirname + '/Display'));
